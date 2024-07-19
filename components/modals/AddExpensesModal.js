@@ -1,5 +1,5 @@
 import { useState, useContext, useRef } from "react";
-import Model from "@/app/components/Model"; // Ensure this path is correct
+import Model from "@/components/Model"; // Ensure this path is correct
 import { budgetContext } from "@/lib/store/budgetContext";
 import { v4 as uuidv4 } from "uuid";
 import { toast } from "react-toastify";

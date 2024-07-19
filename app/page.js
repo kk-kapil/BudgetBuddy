@@ -1,14 +1,14 @@
 "use client";
 import { useState, useContext, useEffect } from "react";
-import ExpenseCategoryItems from "@/app/components/ExpenseCategoryItems";
+import ExpenseCategoryItems from "@/components/ExpenseCategoryItems";
 import { currencyFormatter } from "@/lib/utils";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 import { budgetContext } from "@/lib/store/budgetContext";
 import { authContext } from "@/lib/store/authContext";
-import AddIncomeModal from "@/app/components/modals/AddIncomeModal";
-import AddExpensesModal from "@/app/components/modals/AddExpensesModal";
-import SignIn from "./components/SignIn";
+import AddIncomeModal from "@/components/modals/AddIncomeModal";
+import AddExpensesModal from "@/components/modals/AddExpensesModal";
+import SignIn from "@/components/SignIn";
 
 
 

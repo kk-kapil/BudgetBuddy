@@ -4,7 +4,7 @@ import { currencyFormatter } from "@/lib/utils";
 import { budgetContext } from '@/lib/store/budgetContext';
 import { authContext } from "@/lib/store/authContext";
 import { FaRegTrashAlt } from 'react-icons/fa';
-import Model from "@/app/components/Model";
+import Model from "@/components/Model";
 import { toast } from "react-toastify";
 
 function AddIncomeModal({ show, onClose }) {

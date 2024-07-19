@@ -1,7 +1,7 @@
 // layout.js
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Nav from "@/app/components/navigation";
+import Nav from "@/components/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/ReactToastify.min.css"; 
 import BudgetContextProvider from "@/lib/store/budgetContext";
